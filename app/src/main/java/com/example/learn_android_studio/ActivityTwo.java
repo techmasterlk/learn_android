@@ -19,11 +19,10 @@ public class ActivityTwo extends AppCompatActivity {
         TextView txtAge = findViewById(R.id.age);
 
         Intent getIntent = getIntent();
-
         Bundle data = getIntent.getExtras();
 
-        String userName = data.getString("USERS", "Guest") ;
-        int age = data.getInt("AGES", 18);
+        String userName = data.getString("USER", "Guest") ;
+        int age = data.getInt("AGE", 18);
 
         txtUser.setText(userName);
         txtAge.setText(String.valueOf(age));

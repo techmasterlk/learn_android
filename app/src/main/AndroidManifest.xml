@@ -19,7 +19,7 @@
         android:theme="@style/Theme.Learn_android_studio"
         tools:targetApi="31">
         <activity
-            android:name=".Activity2"
+            android:name=".ActivityTwo"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
